@@ -15,6 +15,7 @@
     <string name="forgot_subprompt">Enter your Email to Reset your Password.</string>
     <string name="new_subprompt">Enter your New Password.</string>
     <string name="reset">Reset Password</string>
+    <string name="change">Change Password</string>
 
     <string name="f_name">First Name</string>
     <string name="l_name">Last Name</string>
