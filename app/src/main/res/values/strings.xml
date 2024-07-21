@@ -10,6 +10,11 @@
     <string name="sign_up_to_in">Already have an Account ? </string>
     <string name="sign_in_to_up">Don\'t have an Account ? </string>
     <string name="forgot_pw_prompt">Forgot Password ?</string>
+    <string name="forgot_prompt">Forgot your Password?</string>
+    <string name="new_prompt">New Password</string>
+    <string name="forgot_subprompt">Enter your Email to Reset your Password.</string>
+    <string name="new_subprompt">Enter your New Password.</string>
+    <string name="reset">Reset Password</string>
 
     <string name="f_name">First Name</string>
     <string name="l_name">Last Name</string>
