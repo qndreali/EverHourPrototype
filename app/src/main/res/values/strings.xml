@@ -1,7 +1,19 @@
 <resources>
     <string name="app_name">EverHour</string>
     <string name="app_description">A time tracking app that offers a comprehensive method for users to manage their working hours with ease and efficiency.</string>
+
     <string name="sign_up">Sign Up</string>
     <string name="sign_in">Sign In</string>
+
+    <string name="sign_up_prompt">Get Started with</string>
+    <string name="sign_in_prompt">Welcome Back to</string>
+    <string name="sign_up_to_in">Already have an Account ? </string>
+    <string name="sign_in_to_up">Don\'t have an Account ? </string>
+
+    <string name="f_name">First Name</string>
+    <string name="l_name">Last Name</string>
+    <string name="email">Email Address</string>
+    <string name="pw">Password</string>
+    <string name="confirm_pw">Confirm Password</string>
 
 </resources>
