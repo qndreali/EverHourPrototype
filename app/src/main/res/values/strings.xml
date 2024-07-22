@@ -39,7 +39,12 @@
     <string name="notif_desc">Customize your Notification Preferences.</string>
     <string name="log_out">Log Out</string>
     <string name="log_out_desc">Are you sure you want to Log Out ?</string>
-
     <string name="save">Save Changes</string>
+
+    <string name="workspace">Workspaces</string>
+    <string name="create_ws">Create Workspace</string>
+    <string name="existing_ws">Existing Workspaces</string>
+    <string name="dummy_ws_name">Workspace Name #1</string>
+    <string name="dummy_role">Admin</string>
 
 </resources>
