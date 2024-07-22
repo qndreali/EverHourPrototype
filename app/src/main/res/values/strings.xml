@@ -13,6 +13,7 @@
     <string name="forgot_prompt">Forgot your Password?</string>
     <string name="new_prompt">New Password</string>
     <string name="forgot_subprompt">Enter your Email to Reset your Password.</string>
+    <string name="old_subprompt">Enter your Old Password.</string>
     <string name="new_subprompt">Enter your New Password.</string>
     <string name="reset">Reset Password</string>
     <string name="change">Change Password</string>
@@ -22,5 +23,23 @@
     <string name="email">Email Address</string>
     <string name="pw">Password</string>
     <string name="confirm_pw">Confirm Password</string>
+
+    <string name="my_account">My Account</string>
+    <string name="hours_tracked">Hours Tracked</string>
+    <string name="tasked_completed">Tasks Completed</string>
+    <string name="dummy_name">First LastName</string>
+    <string name="dummy_email">firstlastname@gmail.com</string>
+    <string name="dummy_stat">2048</string>
+
+    <string name="general">General</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="edit_profile_desc">Change Name, Email and Profile Picture.</string>
+    <string name="change_pw_desc">Update and Strengthen Account Security.</string>
+    <string name="notifications">Notifications</string>
+    <string name="notif_desc">Customize your Notification Preferences.</string>
+    <string name="log_out">Log Out</string>
+    <string name="log_out_desc">Are you sure you want to Log Out ?</string>
+
+    <string name="save">Save Changes</string>
 
 </resources>
