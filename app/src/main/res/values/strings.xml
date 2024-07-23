@@ -67,5 +67,13 @@
 
     <string name="invite">Invite a new Member</string>
     <string name="create_project">Create Project</string>
+    <string name="create_entry">Create Time Entry</string>
+    <string name="filter">Filter</string>
+
+    <string name="dummy_entry_name">Very Very Very Very Very Very Long Task Name</string>
+    <string name="time_elapsed">Time Elapsed</string>
+    <string name="billable">Billable</string>
+    <string name="rate">$10/hr</string>
+
 
 </resources>
