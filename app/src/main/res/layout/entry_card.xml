@@ -127,5 +127,17 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/dots_horizontal"
             tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:background="?selectableItemBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:layout_marginEnd="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/play_circle"
+            tools:ignore="ContentDescription" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>
