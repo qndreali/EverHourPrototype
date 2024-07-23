@@ -48,7 +48,6 @@
     <string name="dummy_project_name">Project Name</string>
     <string name="dummy_client_name">Client Name</string>
     <string name="dummy_role_ic">Role-in-charge</string>
-    <string name="dummy_tags">Tags</string>
     <string name="dummy_role">Admin</string>
 
     <string name="create_ws_prompt" tools:ignore="TypographyEllipsis">Creating a Workspace ...</string>
@@ -60,6 +59,11 @@
     <string name="specifics">Specifics</string>
     <string name="members">Members</string>
     <string name="projects">Projects</string>
+    <string name="client">Client</string>
+    <string name="role_ic">Team</string>
+    <string name="time_entries_stats">Time Entries Count</string>
+    <string name="dummy_entries_count">2048</string>
+    <string name="time_entries">Time Entries</string>
 
     <string name="invite">Invite a new Member</string>
     <string name="create_project">Create Project</string>
