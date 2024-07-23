@@ -16,7 +16,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/EverHourIcon"
+        app:srcCompat="@drawable/everhouricon"
         tools:ignore="ContentDescription" />
 
     <TextView
@@ -58,7 +58,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ForgotPassword"
+        app:srcCompat="@drawable/forgotpassword"
         tools:ignore="ContentDescription" />
 
     <EditText
