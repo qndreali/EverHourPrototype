@@ -45,16 +45,23 @@
     <string name="create_ws">Create Workspace</string>
     <string name="existing_ws">Existing Workspaces</string>
     <string name="dummy_ws_name">Workspace Name</string>
+    <string name="dummy_project_name">Project Name</string>
+    <string name="dummy_client_name">Client Name</string>
+    <string name="dummy_role_ic">Role-in-charge</string>
+    <string name="dummy_tags">Tags</string>
     <string name="dummy_role">Admin</string>
 
     <string name="create_ws_prompt" tools:ignore="TypographyEllipsis">Creating a Workspace ...</string>
+    <string name="create_project_prompt" tools:ignore="TypographyEllipsis">Creating a Project ...</string>
 
     <string name="overview">Overview</string>
     <string name="tracked_hours">Tracked Hours</string>
     <string name="project_count">Project Count</string>
     <string name="specifics">Specifics</string>
     <string name="members">Members</string>
-    <string name="invite">Invite a new Member</string>
     <string name="projects">Projects</string>
+
+    <string name="invite">Invite a new Member</string>
+    <string name="create_project">Create Project</string>
 
 </resources>
