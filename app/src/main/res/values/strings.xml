@@ -84,4 +84,27 @@
     <string name="collective_earnings">Collective Earnings</string>
     <string name="dummy_billable">7,010.24</string>
 
+    <string name="role_options">Role Options</string>
+    <string name="role_prompt">Enter a Role</string>
+
+    <string name="workspace_name_prompt">Enter Workspace Name</string>
+    <string name="invite_members_prompt">Invite</string>
+    <string name="entry_rate">Time Entry Rate</string>
+    <string name="entry_rate_prompt">Enter Time Entry Rate</string>
+    <string name="entry_entryname_prompt">Enter Time Entry Name</string>
+
+    <string name="set">Set</string>
+    <string name="projects_details">Project Details</string>
+
+    <string name="delete_ws">Delete Workspace?</string>
+    <string name="delete_project">Delete Project?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="on">On</string>
+    <string name="off">Off</string>
+
+
+
+
 </resources>
