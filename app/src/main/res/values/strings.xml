@@ -71,6 +71,7 @@
     <string name="filter">Filter</string>
 
     <string name="dummy_entry_name">Very Very Very Very Very Very Long Task Name</string>
+    <string name="dummy_time">02:13:04</string>
     <string name="time_elapsed">Time Elapsed</string>
     <string name="billable">Billable</string>
     <string name="rate">$10/hr</string>
