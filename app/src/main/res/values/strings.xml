@@ -74,7 +74,14 @@
     <string name="dummy_time">02:13:04</string>
     <string name="time_elapsed">Time Elapsed</string>
     <string name="billable">Billable</string>
+    <string name="billable_hrs">Billable Hours</string>
+    <string name="total_earnings">Total Earnings</string>
     <string name="rate">$10/hr</string>
 
+    <string name="reports">Reports</string>
+    <string name="collective_tracked">Collective Tracked Hours</string>
+    <string name="collective_billable">Collective Billable Hours</string>
+    <string name="collective_earnings">Collective Earnings</string>
+    <string name="dummy_billable">7,010.24</string>
 
 </resources>
