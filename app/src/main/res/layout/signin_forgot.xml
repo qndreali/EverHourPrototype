@@ -11,7 +11,7 @@
         android:id="@+id/ivLogo"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,7 +23,7 @@
         android:id="@+id/tvPrompt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="120dp"
         android:text="@string/forgot_prompt"
         android:textColor="@color/blue1"
         android:textSize="22sp"
@@ -35,10 +35,10 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tvAppName"
+        android:id="@+id/tvSubPrompt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="150dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/forgot_subprompt"
         android:textColor="@color/white"
@@ -82,13 +82,15 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="RtlSymmetry" />
 
-    <Button
+    <android.widget.Button
         android:id="@+id/btnResetPW"
         android:layout_width="330dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="250dp"
+        android:layout_marginBottom="200dp"
         android:background="@drawable/gradient"
         android:text="@string/reset"
+        android:textColor="@color/white"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

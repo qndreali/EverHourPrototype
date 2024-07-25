@@ -11,7 +11,7 @@
         android:id="@+id/ivLogo"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,7 +23,7 @@
         android:id="@+id/tvPrompt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="120dp"
         android:text="@string/sign_in_prompt"
         android:textColor="@color/white"
         android:textSize="12sp"
@@ -37,7 +37,7 @@
         android:id="@+id/tvAppName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="185dp"
+        android:layout_marginTop="135dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/app_name"
         android:textColor="@color/blue1"
@@ -53,7 +53,7 @@
         android:id="@+id/ivSIIllust"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:layout_marginTop="230dp"
+        android:layout_marginTop="200dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -104,25 +104,27 @@
         tools:ignore="RtlSymmetry" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvForgot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="40dp"
-        android:layout_marginBottom="280dp"
+        android:layout_marginTop="580dp"
         android:text="@string/forgot_pw_prompt"
         android:textColor="@color/blue1"
         android:textStyle="italic"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <Button
+    <android.widget.Button
         android:id="@+id/btnSignInMain"
         android:layout_width="330dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="175dp"
+        android:layout_marginTop="610dp"
         android:background="@drawable/gradient"
         android:text="@string/sign_in"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -131,13 +133,13 @@
     <LinearLayout
         android:id="@+id/lloPrompt"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="125dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="670dp"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent" >
 
         <TextView
             android:id="@+id/tvInToUp"

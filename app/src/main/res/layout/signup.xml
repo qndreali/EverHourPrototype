@@ -11,7 +11,7 @@
         android:id="@+id/ivLogo"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,7 +23,7 @@
         android:id="@+id/tvPrompt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="120dp"
         android:text="@string/sign_up_prompt"
         android:textColor="@color/white"
         android:textSize="12sp"
@@ -37,7 +37,7 @@
         android:id="@+id/tvAppName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="185dp"
+        android:layout_marginTop="135dp"
         android:fontFamily="sans-serif-black"
         android:text="@string/app_name"
         android:textColor="@color/blue1"
@@ -49,47 +49,43 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/tilFirstname"
+    <EditText
+        android:id="@+id/etvFName"
         android:layout_width="160dp"
         android:layout_height="48dp"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="300dp"
         android:background="@drawable/inputfields"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingStart="15dp"
+        android:hint="@string/f_name"
+        android:textColor="@color/blue3"
+        android:textColorHint="@color/blue3"
+        android:textSize="16sp"
+        android:textStyle="italic"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill,LabelFor,RtlSymmetry,DuplicateSpeakableTextCheck" />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@android:color/transparent"
-            android:hint="@string/f_name"
-            android:textColor="@color/blue3"
-            android:textColorHint="@color/blue3"
-            android:textStyle="italic"
-            tools:ignore="TouchTargetSizeCheck" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/tilLastname"
+    <EditText
+        android:id="@+id/etvLName"
         android:layout_width="160dp"
         android:layout_height="48dp"
+        android:layout_marginEnd="30dp"
         android:layout_marginTop="300dp"
-        android:layout_marginEnd="40dp"
         android:background="@drawable/inputfields"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingStart="15dp"
+        android:hint="@string/l_name"
+        android:textColor="@color/blue3"
+        android:textColorHint="@color/blue3"
+        android:textSize="16sp"
+        android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@android:color/transparent"
-            android:hint="@string/l_name"
-            android:textColor="@color/blue3"
-            android:textColorHint="@color/blue3"
-            android:textStyle="italic"
-            tools:ignore="TouchTargetSizeCheck" />
-    </com.google.android.material.textfield.TextInputLayout>
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="Autofill,LabelFor,RtlSymmetry,DuplicateSpeakableTextCheck" />
 
     <EditText
         android:id="@+id/etvEmail"
@@ -154,26 +150,28 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="RtlSymmetry" />
 
-    <Button
+    <android.widget.Button
         android:id="@+id/btnSignUpMain"
         android:layout_width="330dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="175dp"
+        android:layout_marginTop="610dp"
         android:background="@drawable/gradient"
         android:text="@string/sign_up"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="VisualLintButtonSize" />
+        tools:ignore="VisualLintButtonSize,TextContrastCheck" />
 
     <LinearLayout
         android:id="@+id/lloPrompt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="125dp"
+        android:layout_marginTop="670dp"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent">
