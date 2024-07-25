@@ -33,6 +33,7 @@ class SignInActivity : AppCompatActivity() {
                         Toast.makeText(this, "Login successful!", Toast.LENGTH_SHORT).show()
                         val intent = Intent(this, WorkspaceActivity::class.java)
                         startActivity(intent)
+                        finish()
                     } else {
                         Toast.makeText(this, "Authentication failed: ${task.exception?.message} !", Toast.LENGTH_SHORT).show()
                     }
@@ -43,6 +44,7 @@ class SignInActivity : AppCompatActivity() {
         binding.lloPrompt.setOnClickListener {
             val intent = Intent(this, SignUpActivity::class.java)
             startActivity(intent)
+            finish()
         }
     }
 }
