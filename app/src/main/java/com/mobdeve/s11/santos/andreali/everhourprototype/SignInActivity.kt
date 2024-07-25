@@ -31,14 +31,12 @@ class SignInActivity : AppCompatActivity() {
                 auth.signInWithEmailAndPassword(email, password).addOnCompleteListener(this) { task ->
                     if (task.isSuccessful) {
                         Toast.makeText(this, "Login successful!", Toast.LENGTH_SHORT).show()
-                        val intent = Intent(this, MainActivity::class.java)
+                        val intent = Intent(this, WorkspaceActivity::class.java)
                         startActivity(intent)
                     } else {
                         Toast.makeText(this, "Authentication failed: ${task.exception?.message} !", Toast.LENGTH_SHORT).show()
                     }
-
                 }
-
             }
         }
 
