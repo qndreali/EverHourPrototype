@@ -5,7 +5,7 @@ data class ProjectModel (
     var projectClient: String? = null,
     var projectHrs: Int? = null,
     var projectCount: Int? = null,
-    var projectEntries: ArrayList<TimeEntryModel>? = null
+    var projectEntries: ArrayList<EntryModel>? = null
 ) {
 
 }

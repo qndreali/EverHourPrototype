@@ -3,7 +3,6 @@ package com.mobdeve.s11.santos.andreali.everhourprototype
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.mobdeve.s11.santos.andreali.everhourprototype.databinding.SigninBinding
@@ -31,7 +30,7 @@ class SignInActivity : AppCompatActivity() {
                 auth.signInWithEmailAndPassword(email, password).addOnCompleteListener(this) { task ->
                     if (task.isSuccessful) {
                         Toast.makeText(this, "Login successful!", Toast.LENGTH_SHORT).show()
-                        val intent = Intent(this, WorkspaceActivity::class.java)
+                        val intent = Intent(this, WorkspaceOverviewActivity::class.java)
                         startActivity(intent)
                         finish()
                     } else {

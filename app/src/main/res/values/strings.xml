@@ -103,6 +103,7 @@
 
     <string name="on">On</string>
     <string name="off">Off</string>
+    <string name="title_activity_project_overview">ProjectOverviewActivity</string>
 
 
 </resources>

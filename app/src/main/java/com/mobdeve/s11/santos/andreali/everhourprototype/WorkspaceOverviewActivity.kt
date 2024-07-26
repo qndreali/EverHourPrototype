@@ -1,13 +1,10 @@
 package com.mobdeve.s11.santos.andreali.everhourprototype
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.mobdeve.s11.santos.andreali.everhourprototype.databinding.WorkspaceOverviewBinding
 
-class WorkspaceActivity : AppCompatActivity() {
+class WorkspaceOverviewActivity : AppCompatActivity() {
 
     private lateinit var binding: WorkspaceOverviewBinding
 

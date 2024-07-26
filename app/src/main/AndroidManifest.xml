@@ -13,7 +13,25 @@
         android:theme="@style/Theme.EverHourPrototype"
         tools:targetApi="31">
         <activity
-            android:name=".WorkspaceActivity"
+            android:name=".ProjectDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProjectOverviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AccountEditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AccountPwActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WorkspaceDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WorkspaceOverviewActivity"
             android:exported="false" />
         <activity
             android:name=".SignInActivity"

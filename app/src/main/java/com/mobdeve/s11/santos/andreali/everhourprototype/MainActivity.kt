@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
                     finish()
                 }
             } else {
-                val intent = Intent(this, WorkspaceActivity::class.java)
+                val intent = Intent(this, WorkspaceOverviewActivity::class.java)
                 startActivity(intent)
                 finish()
             }

@@ -8,7 +8,9 @@ import androidx.recyclerview.widget.RecyclerView
 class WorkspaceAdapter() : RecyclerView.Adapter<WorkspaceAdapter.WorkspaceViewHolder>() {
 
     inner class WorkspaceViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        override fun onClick(v: View?) {
 
+        }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WorkspaceViewHolder {
@@ -20,7 +22,7 @@ class WorkspaceAdapter() : RecyclerView.Adapter<WorkspaceAdapter.WorkspaceViewHo
         TODO("Not yet implemented")
     }
 
-    override fun onBindViewHolder(holder: WorkspaceViewHolder, position: Int) {
-        TODO("Not yet implemented")
+    override fun onBindViewHolder(holder: WorkspaceViewHolder, position: Int, model: WorkspaceModel) {
+        //holder.bindData(model)
     }
 }
