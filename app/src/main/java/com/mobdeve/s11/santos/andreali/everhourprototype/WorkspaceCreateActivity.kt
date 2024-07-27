@@ -1,6 +1,7 @@
 package com.mobdeve.s11.santos.andreali.everhourprototype
 
 import Workspace
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
@@ -54,6 +55,8 @@ class WorkspaceCreateActivity : AppCompatActivity() {
                 dbRef.child("workspaces").child(userId).child(workspaceId).setValue(workspace)
                     .addOnSuccessListener {
                         Toast.makeText(this, "Workspace created successfully!", Toast.LENGTH_SHORT).show()
+                        val intent = Intent(this, WorkspaceActivity::class.java)
+                        startActivity(intent)
                         finish()  // Close the activity and return to the previous one
                     }
                     .addOnFailureListener {
@@ -63,6 +66,21 @@ class WorkspaceCreateActivity : AppCompatActivity() {
                 Toast.makeText(this, "Please enter a workspace name.", Toast.LENGTH_SHORT).show()
             }
             Log.d("WorkspaceCreateActivity", "Button clicked")
+        }
+
+        // Navbar Buttons
+        binding.ivHome.setOnClickListener {
+            val intent = Intent(this, WorkspaceActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+        binding.ivReport.setOnClickListener{
+
+        }
+        binding.ivAccount.setOnClickListener{
+            val intent = Intent(this, AccountActivity::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 }

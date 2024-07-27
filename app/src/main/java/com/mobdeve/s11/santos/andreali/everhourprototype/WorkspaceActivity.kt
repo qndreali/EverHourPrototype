@@ -48,8 +48,12 @@ class WorkspaceActivity : AppCompatActivity() {
         }
 
         // Handle navigation
-        binding.ivHome.setOnClickListener {
-            startActivity(Intent(this, MainActivity::class.java))
+        binding.ivAccount.setOnClickListener {
+            startActivity(Intent(this, AccountActivity::class.java))
+            finish()
+        }
+        binding.ivReport.setOnClickListener {
+
         }
     }
 

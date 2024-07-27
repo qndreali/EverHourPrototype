@@ -12,7 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EverHourPrototype"
         tools:targetApi="31">
-        <!-- WorkspaceCreateActivity -->
+        <activity
+            android:name=".AccountActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".AccountEditActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".AccountPwActivity"
+            android:exported="false"/>
         <activity
             android:name=".MembersActivity"
             android:exported="false"/>
@@ -41,5 +49,5 @@
             </intent-filter>
         </activity>
     </application>
-
+    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
