@@ -3,9 +3,9 @@ package com.mobdeve.s11.santos.andreali.everhourprototype
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
+import com.mobdeve.s11.santos.andreali.everhourprototype.SignIn.ForgotPwActivity
 import com.mobdeve.s11.santos.andreali.everhourprototype.databinding.SigninBinding
 
 class SignInActivity : AppCompatActivity() {
@@ -33,6 +33,7 @@ class SignInActivity : AppCompatActivity() {
                         Toast.makeText(this, "Login successful!", Toast.LENGTH_SHORT).show()
                         val intent = Intent(this, WorkspaceActivity::class.java)
                         startActivity(intent)
+                        finish()
                     } else {
                         Toast.makeText(this, "Authentication failed: ${task.exception?.message} !", Toast.LENGTH_SHORT).show()
                     }
@@ -40,9 +41,16 @@ class SignInActivity : AppCompatActivity() {
             }
         }
 
+        binding.tvForgot.setOnClickListener {
+            val intent = Intent(this, ForgotPwActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
         binding.lloPrompt.setOnClickListener {
             val intent = Intent(this, SignUpActivity::class.java)
             startActivity(intent)
+            finish()
         }
     }
 }

@@ -69,6 +69,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="310dp"
         android:orientation="horizontal"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -140,7 +141,7 @@
         android:id="@+id/cloGeneral"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="380dp"
+        android:layout_marginTop="340dp"
         android:background="@drawable/black_card"
         android:orientation="vertical"
         android:padding="20dp"
@@ -384,7 +385,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_weight="1"
-            app:srcCompat="@drawable/chart_line"
+            app:srcCompat="@drawable/chart_line_white"
             tools:ignore="ContentDescription" />
 
         <ImageView
@@ -393,7 +394,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_weight="1"
-            app:srcCompat="@drawable/home_outline"
+            app:srcCompat="@drawable/home_outline_white"
             tools:ignore="ContentDescription" />
 
         <ImageView
